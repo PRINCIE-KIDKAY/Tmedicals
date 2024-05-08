@@ -9,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  flip(){
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        item.classList.toggle('flipped');
+      });
+    });
+  }
 }
