@@ -6,12 +6,12 @@
         </div>
         <h1 class="fw-4">TIMBAVATI MEDICAL SERVICES</h1>
         <nav class="navigation text-center "> <!-- Added class to the nav element -->
-                <a href="Home.html" class="me-1 mb-1">Home</a>
-                <a href="About.html" class="me-1 mb-1">About</a>
-                <a href="OUR SERVICES.html" class="me-1 mb-1">Services</a>
-                <a href="our clients.html" class="me-1 mb-1">Clients</a>
-                <a href="Gallery.html" class="me-1 mb-1">Gallery</a>
-                <a href="CONTACT.html" class="me-1 mb-1">Contact</a>
+                <a class="me-1 mb-1" [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</a>
+                <a class="me-1 mb-1" [routerLink]="['/about_us']" routerLinkActive="router-link-active">About</a>
+                <a class="me-1 mb-1" [routerLink]="['/our_services']" routerLinkActive="router-link-active">Services</a>
+                <a class="me-1 mb-1" [routerLink]="['/clients']" routerLinkActive="router-link-active">Clients</a>
+                <a class="me-1 mb-1" [routerLink]="['/gallery']" routerLinkActive="router-link-active">Gallery</a>
+                <a class="me-1 mb-1" [routerLink]="['/contact']" routerLinkActive="router-link-active">Contact</a>
 
         </nav>
 </header>

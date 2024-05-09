@@ -1,0 +1,68 @@
+/* Main header styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+}
+
+
+
+h1 {
+    color: #339966;
+        font-size: 34px;
+        font-weight: 600;
+}
+
+
+.client {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left:20px;
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Animation for hover effect */
+
+    h2{
+        // color: #fff;
+        background-color: #fff;
+    }
+}
+
+.client:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.client img {
+    max-width: 45%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.client h2 {
+    margin-top: 0;
+    color: #20b2aa; /* Light blue-green heading */
+    text-align: center; /* Center align the company names */
+}
+
+.client p {
+    margin-bottom: 0;
+}
+
+/* Animation for client count */
+.client-count {
+    font-size: 24px;
+    color: #20b2aa; /* Light blue-green */
+    text-align: center;
+    animation: pulse 1s infinite alternate; /* Alternate pulsating animation */
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
