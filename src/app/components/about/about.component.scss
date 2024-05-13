@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+}
+
+
+
+header {
+    background-color: #339966;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #fff; /* Heading text color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Picture Gallery section */
+#picture-gallery {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+.gallery img {
+    width: 150px;
+    height: auto;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Company Overview section */
+#overview,
+#vision,
+#mission,
+#strategy,
+#objectives {
+    color: #fff; /* Text color */
+    background-color: #4db8ff; /* Cyan blue section background color */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
